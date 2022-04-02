@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Interactive rating component</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <section class="startPage">
+                <div class="firstContainer">
+                    <img src="./images/icon-star.svg" alt="etoile" id="star" />
+                    <h1>How did we do?</h1>
+                    <p>
+                        Please let us know how we did with your support request.
+                        All feedback is appreciated to help us improve our
+                        offering!
+                    </p>
+                </div>
+                <form action="">
+                    <input type="radio" name="btn" class="btn" id="btn1" value="1" />
+                    <label class="circle" for="btn1">1</label>
+                    <input type="radio" name="btn" class="btn" id="btn2" value="2" />
+                    <label class="circle" for="btn2">2</label>
+                    <input type="radio" name="btn" class="btn" id="btn3" value="3" />
+                    <label class="circle" for="btn3">3</label>
+                    <input type="radio" name="btn" class="btn" id="btn4" value="4" />
+                    <label class="circle" for="btn4">4</label>
+                    <input type="radio" name="btn" class="btn" id="btn5" value="5" />
+                    <label class="circle" for="btn5">5</label>
+                
+                <div class="submit">
+                    <input type="submit" value="submit" id="submitBtn" /></form>
+                </div>
+            </section>
+            <section class="endPage">
+                <div class="thanks">
+                    <img
+                        src="./images/illustration-thank-you.svg"
+                        alt="illustration-thank-you"
+                        id="endPicture"
+                    />
+                    <h1>
+                        You selected <span class="ratingValue"></span> out of 5
+                    </h1>
+                    <h2>Thank you!</h2>
+                    <p>
+                        We appreciate you taking the time to give a rating. If
+                        you ever need more support, don’t hesitate to get in
+                        touch!
+                    </p>
+                </div>
+            </section>
+        </main>
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            > <p> thanks to https://stackoverflow.com/ & https://www.w3schools.com/</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
