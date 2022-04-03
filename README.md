@@ -2,7 +2,6 @@
 
 Challenge Frontend Mentor Interactive-rating-component
 
-# Exercise_DigitalSprintHTML_JS_CSS
 
 version 1.0 02/04/2022
 
